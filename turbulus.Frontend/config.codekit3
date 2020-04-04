@@ -341,6 +341,28 @@
 		"oAP": "/build/assets/reset.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"/vendor/stimulus/stimulus.umd.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/build/assets/stimulus.umd.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"/vendor/turbolinks/turbolinks.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/build/assets/turbolinks.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
 		}
 	},
 "hooks": [
