@@ -1,6 +1,15 @@
 .movie {
-	padding: 1em;
+	display: inline-block;
+	padding: 0.2em 0.6em;
 	border: 2px solid rgba(0, 0, 0, 0.3);
 	border-radius: 1em;
 	text-align: center;
+	
+	* {
+		font-size: inherit;
+	}
+	
+	&[data-year="2017"] { background-color: rgba(255, 0, 0, 0.1); }
+	&[data-year="2018"] { background-color: rgba(0, 255, 0, 0.1); }
+	&[data-year="2019"] { background-color: rgba(0, 0, 255, 0.1); }
 }
