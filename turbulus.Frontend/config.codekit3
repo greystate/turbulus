@@ -349,10 +349,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 602205694.45881498,
-	"displayValue": "project-template.Frontend",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-red",
-	"iconImageWasSetByUser": 0,
+	"displayValue": "Turbulus",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "brackets-rose",
+	"iconImageWasSetByUser": 1,
 	"lastBuiltDate": 602267613.92809701
 	},
 "projectSettings": {
