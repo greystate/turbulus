@@ -38,7 +38,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/_all.html",
+		"oAP": "/build/components/_all.html",
 		"oF": 0
 		},
 	"/src/components/all.less": {
@@ -57,12 +57,36 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/src/components/movie/_movie.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/components/movie/_movie.html",
+		"oF": 0
+		},
+	"/src/components/movie/movie.less": {
+		"aP": 1,
+		"bl": 1,
+		"eJ": 0,
+		"ft": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/build/assets/movie.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/src/components/placeholder/_placeholder.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/_placeholder.html",
+		"oAP": "/build/components/placeholder/_placeholder.html",
 		"oF": 0
 		},
 	"/src/components/placeholder/placeholder.less": {
@@ -75,6 +99,30 @@
 		"mS": 0,
 		"oA": 1,
 		"oAP": "/build/assets/placeholder.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/src/components/yearfilter/_yearfilter.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/components/yearfilter/_yearfilter.html",
+		"oF": 0
+		},
+	"/src/components/yearfilter/yearfilter.less": {
+		"aP": 1,
+		"bl": 1,
+		"eJ": 0,
+		"ft": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/build/assets/yearfilter.css",
 		"oF": 0,
 		"oS": 0,
 		"rwU": 0,
@@ -127,6 +175,38 @@
 		"oAP": "/build/index.html",
 		"oF": 0
 		},
+	"/src/kit/movies/2017/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/movies/2017/index.html",
+		"oF": 0
+		},
+	"/src/kit/movies/2018/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/movies/2018/index.html",
+		"oF": 0
+		},
+	"/src/kit/movies/2019/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/movies/2019/index.html",
+		"oF": 0
+		},
+	"/src/kit/movies/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/movies/index.html",
+		"oF": 0
+		},
 	"/src/kit/panels.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -140,7 +220,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/_cpl_nav.html",
+		"oAP": "/build/shared/_cpl_nav.html",
 		"oF": 0
 		},
 	"/src/kit/shared/_head_content.kit": {
@@ -148,7 +228,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/_head_content.html",
+		"oAP": "/build/shared/_head_content.html",
 		"oF": 0
 		},
 	"/src/kit/shared/_script_content.kit": {
@@ -156,7 +236,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/_script_content.html",
+		"oAP": "/build/shared/_script_content.html",
 		"oF": 0
 		},
 	"/src/layouts/all.less": {
@@ -292,7 +372,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/build/_all.html",
+		"oAP": "/build/panels/_all.html",
 		"oF": 0
 		},
 	"/src/panels/all.less": {
@@ -305,6 +385,54 @@
 		"mS": 0,
 		"oA": 1,
 		"oAP": "/build/assets/all.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/src/panels/movielist/_movielist-all.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/panels/movielist/_movielist-all.html",
+		"oF": 0
+		},
+	"/src/panels/movielist/_movies-2017.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/panels/movielist/_movies-2017.html",
+		"oF": 0
+		},
+	"/src/panels/movielist/_movies-2018.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/panels/movielist/_movies-2018.html",
+		"oF": 0
+		},
+	"/src/panels/movielist/_movies-2019.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/panels/movielist/_movies-2019.html",
+		"oF": 0
+		},
+	"/src/panels/movielist/movielist.less": {
+		"aP": 1,
+		"bl": 1,
+		"eJ": 0,
+		"ft": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/build/assets/movielist.css",
 		"oF": 0,
 		"oS": 0,
 		"rwU": 0,
@@ -375,7 +503,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-rose",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 602267613.92809701
+	"lastBuiltDate": 607704151.98454499
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2293,7 +2421,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 1,
+		"autoOutputPathStyle": 3,
 		"shouldRunCacheBuster": 0,
 		"shouldRunHTMLMinifier": 0
 		},
