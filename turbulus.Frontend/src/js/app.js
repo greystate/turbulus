@@ -5,25 +5,31 @@ class Movies extends Stimulus.Controller {
 	}
 	
 	initialize() {
+		window.DEBUG = false
+		this.reporter = {
+			log: function(msg) {
+				if (DEBUG) console.info(msg)
+			}
+		}
 		const me = this
 		document.addEventListener('turbolinks:before-visit', event => me.fadeOutList())
 		document.addEventListener('turbolinks:before-render', me.hideList)
-		document.addEventListener('turbolinks:render', console.log('render'))
+		document.addEventListener('turbolinks:render', this.reporter.log('render'))
 	}
 	
 	connect() {
-		console.log('connecting...')
+		this.reporter.log('connecting...')
 		const me = this
 		setTimeout(() => me.fadeInList(), 10)
 	}
 
 	fadeOutList() {
-		console.log('fading...')
+		this.reporter.log('fading...')
 		this.listTarget.classList.add('fade')
 	}
 	
 	fadeInList() {
-		console.log('unfading...')
+		this.reporter.log('unfading...')
 		this.listTarget.classList.remove('fade')
 	}
 	
@@ -31,7 +37,6 @@ class Movies extends Stimulus.Controller {
 		let newBody = event.data.newBody
 		newBody.querySelector('.movielist').classList.add('fade')
 		event.data.newBody = newBody
-		console.log(newBody.querySelector('.movielist').className)
 	}
 }
 
