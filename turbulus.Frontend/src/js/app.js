@@ -20,7 +20,7 @@ class Movies extends Stimulus.Controller {
 	connect() {
 		this.reporter.log('connecting...')
 		const me = this
-		setTimeout(() => me.fadeInList(), 10)
+		setTimeout(() => me.fadeInList(), 50)
 	}
 
 	fadeOutList() {
