@@ -17,3 +17,16 @@ main {
 		margin-top: 1.5em;
 	}
 }
+
+.movielist {
+	opacity: 1;
+	transform: translateY(0);
+	transition:
+		transform 300ms ease,
+		opacity 300ms ease;
+
+	&.fade {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+}
